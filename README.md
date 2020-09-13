@@ -6,14 +6,14 @@ Download the acharya binary latest release for your system.
 
 # Initial Run and Setup
 Installation and Setup for Acharya is not required, Acharya detects it running for the first time and runs the initial setup when run for the first time.
-
 To start Acharya type the following command
+
 On *sh shells
 ```bash
 ./acharya
 ```
 
-.On Powershell and COMMAND in Windows 
+On Powershell and COMMAND in Windows 
 ```powershell
 acharya.exe
 ```
