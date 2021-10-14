@@ -17,14 +17,14 @@ It is recommended to create a separate folder to run acharya. Acharya will creat
 
 On *sh shells
 ```bash
-#copy the downloaded file to the newly created acharya folder and run the following commands.
-chmod +x acharya
-./acharya
+# copy the downloaded file to the newly created acharya folder and run the following command. Change the binary as per your platform
+chmod +x acharya.0.1.0-alpha.darwin.amd64.bin
+./acharya.0.1.0-alpha.darwin.amd64.bin
 ```
 
-On Powershell and COMMAND in Windows 
+On Powershell or COMMAND in Windows 
 ```powershell
-acharya.exe
+acharya.0.1.0-alpha.windows.amd64.exe
 ```
 
 Acharya will generate a password for the default user admin@localhost
