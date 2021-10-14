@@ -2,7 +2,7 @@
 A Data Centric MLOps tool for your Named Entity Recognition projects.
 
 # Download
-Download the acharya binary latest release for your system.
+Download the acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.1.0-alpha
 
 # Initial Run and Setup
 Installation and Setup for Acharya is not required, Acharya detects it running for the first time and runs the initial setup when run for the first time.
