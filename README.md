@@ -43,10 +43,10 @@ Login to the Acharya UI using a web-browser and access the URL seen in the outpu
 
 For more use case driven docs, Check the [How-to's](#how-to's) section.
 
-### 7 minute demo
+### 5 minute demo
 
 
-https://user-images.githubusercontent.com/61645553/137402949-89f8d668-256e-460f-ba6d-b66a741144f6.mp4
+https://user-images.githubusercontent.com/61645553/137409769-fdc6b78f-f01a-4f8b-8b4a-4a2034dc0283.mp4
 
 
 
