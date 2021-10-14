@@ -70,11 +70,11 @@ Based on the format of your data, choose the Data format accordingly. There is a
 Data uploaded via upload or command-line tasks are stored as records in Acharya. These records can be viewed and modified on the workbench screen.
 The data shown on the workbench screen can be annotated by selecting the data and choosing an appropriate entity.
 
-[Read more about Workbench features](./pages.md/#workbench)
+[Read more about Workbench features](./Pages.md/#workbench)
 
 ## Dashboard Reports
 Acharya project dashboard focuses on data-centric reports about the data in the project. 
-[See more about the dashboard section](./pages.md/#dashboard) 
+[See more about the dashboard section](./Pages.md/#dashboard) 
 
 ### Check entity data bias from entity distribution
 Entity distribution shows how many annotations belongs to each entity. If the number of annotations of a particular entity is less or more as compared to other entities, it shows that the dataset is biased against or towards that entity. This report gives an insight that what kind of new data should be sourced into the project to balance the entity distribution.
@@ -102,7 +102,7 @@ This table helps in identifying unclassified words in the project. Instead of br
 Shows a quick glance of how well each algorithm has been trained on the dataset, and which one is the best trained algorithm.
 
 ## Add algorithms
-Please read the [Algorithms section](./pages.md/#algorithms) for detailed information.
+Please read the [Algorithms section](./Pages.md/#algorithms) for detailed information.
 
 To add algorithms to the project, the user needs to specify the algorithm details via a yaml configuration.
 
