@@ -12,7 +12,7 @@ Download the acharya binary latest release for your system. Our current release 
 
 
 # Initial Run and Setup
-Installation and Setup for Acharya is not required, Acharya runs the initial setup when run for the first time.
+Installation and Setup for Acharya are not required, Acharya runs the initial setup when run for the first time.
 To start Acharya type the following command in a terminal/command prompt 
 It is recommended to create a separate folder to run acharya. Acharya will create a data folder and a temp folder in the folder where it is run to store its data.
 
@@ -45,10 +45,7 @@ For more use case driven docs, Check the [How-to's](#how-to's) section.
 
 ### 5 minute demo
 
-
-https://user-images.githubusercontent.com/61645553/137409769-fdc6b78f-f01a-4f8b-8b4a-4a2034dc0283.mp4
-
-
+https://user-images.githubusercontent.com/61645553/137438387-690a9d86-cebc-408e-abe5-0e52258b76bd.mp4
 
 
 ## How to's 
@@ -69,7 +66,7 @@ Login to acharya UI, the default page would be the Projects page. If you are on 
 
 ## Upload data
 To upload data to a Project, from the Projects landing page, click on the project ID, which would open the project. From the sidebar choose Upload to open the Upload data page.
-Based on the format of your data, choose the Data format accordingly. There is also an option to upload plain txt data, or if the text data is not as a file, you can paste the text data on the editor and upload it. While uploading the data, the user can select the data to be marked for training or test/evaluation or keep it pending (not used for training or test/evaluation.). The user can change this parameter later from workbench screen.
+Based on the format of your data, choose the Data format accordingly. There is also an option to upload plain .txt data, or if the text data is not as a file, you can paste the text data on the editor and upload it. While uploading the data, the user can select the data to be marked for training or test/evaluation or keep it pending (not used for training or test/evaluation.). The user can change this parameter later from workbench screen.
 
 ## Workbench
 Data uploaded via upload or command-line tasks are stored as records in Acharya. These records can be viewed and modified on the workbench screen.
@@ -85,20 +82,20 @@ Acharya project dashboard focuses on data-centric reports about the data in the 
 Entity distribution shows how many annotations belongs to each entity. If the number of annotations of a particular entity is less or more as compared to other entities, it shows that the dataset is biased against or towards that entity. This report gives an insight that what kind of new data should be sourced into the project to balance the entity distribution.
 
 ### Classifications
-Classifications lists the words classified against each entity. This table helps in identifying words which are classified as what entities. If a words is classified as more than one entity then it is important to verify such annotations and confirm the validity of that annotation.
+Classifications list the words classified against each entity. This table helps in identifying words which are classified as what entities. If a word is classified as more than one entity then it is important to verify such annotations and confirm the validity of that annotation.
 
 This table also helps to know the occurrences of each annotated words in the dataset. 
 
 ### Missed Classifications
-Missed classifications shows the words that have been classified once in the dataset and missed at other locations of the dataset. This is very important to identify mistakes where the annotator might have either missed classifying the word or might have wrongly classified that word.
+Missed classifications show the words that have been classified once in the dataset and missed at other locations of the dataset. This is very important to identify mistakes where the annotator might have either missed classifying the word or might have wrongly classified that word.
 
 Sorting on Missed Records would let the user know annotations which might have been missed by the annotator
 
 And sorting on Classification Counts would let the user know annotations that might have been wrongly annotated by the annotator.
 
 ### Anomalies
-Anomalies highlights those annotations where the system feels the annotation might be a mistake.
-This might either need annotation correction of the underlying data to be modified.
+Anomalies highlight those annotations where the system feels the annotation might be a mistake.
+This might need annotation correction of the underlying data to be modified.
 
 ### Unclassified words
 This table helps in identifying unclassified words in the project. Instead of browsing the dataset, this table helps sort the words based on their word length and number of occurrences.
