@@ -3,7 +3,7 @@
 A Data Centric MLOps tool for your Named Entity Recognition projects.
 
 # Download
-Download the acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.1.0-alpha
+Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.1.0-alpha
 
 * [Intel Mac binary](https://github.com/astutic/Acharya/releases/download/v0.1.0-alpha/acharya.0.1.0-alpha.darwin.amd64.bin) | SHA256: 97d3011105bba18cd1d7a0975c190ae593abf3bab877d254a646863df2151cce 
 * [M1 Mac binary](https://github.com/astutic/Acharya/releases/download/v0.1.0-alpha/acharya.0.1.0-alpha.darwin.arm64.bin) | SHA256: 60856871965edf6651bb7b233222fc4e00c53ee29c28b804b16587a0a852e369
