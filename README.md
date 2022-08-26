@@ -30,13 +30,9 @@ acharya.0.2.0-alpha.windows.amd64.exe
 
 Windows firewall will show a prompt where it will ask whether it should allow acharya to listen to port 3000. Please allow it.
 
-Acharya will generate a password for the default user admin@localhost
-
 The UI will be accessible at http://localhost:3000
 
-Login to the UI with admin@localhost as the username and the password displayed on the terminal/command prompt screen.
-
-It is recommended that the users change this password from the UI
+The UI will prompt the user to set a password for the default user admin@localhost
 
 # Using Acharya
 Login to the Acharya UI using a web-browser and access the URL seen in the output of the above command. The default URL would be http://localhost:3000
