@@ -121,18 +121,18 @@ the output would be
 ```
 Available grifts
 ================
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe compare        # Compare Results of 2 Train
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe convert        # To convert input data to another format.
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe copyFile       # copyFile [src] [dst project:algo:dstDirpath] Copies file to running algorithm container/VM
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe entities       # To list, add and modify entities in a NER Project.
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe export         # Export data in a Project in required data formats.
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe import         # To import external data into a project.
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe login          #
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe logout         #
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe project        # To add and delete projects
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe requireAuth    #
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe train          # Train Algorithm
-C:\acharya\acharya.0.2.0-alpha.windows.amd64.exe users          # User related operations
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe compare        # Compare Results of 2 Train
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe convert        # To convert input data to another format.
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe copyFile       # copyFile [src] [dst project:algo:dstDirpath] Copies file to running algorithm container/VM
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe entities       # To list, add and modify entities in a NER Project.
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe export         # Export data in a Project in required data formats.
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe import         # To import external data into a project.
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe login          #
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe logout         #
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe project        # To add and delete projects
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe requireAuth    #
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe train          # Train Algorithm
+C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe users          # User related operations
 ```
 
 certain tasks would require login and the task would prompt for the same.
