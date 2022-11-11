@@ -3,12 +3,12 @@
 A Data Centric MLOps tool for your Named Entity Recognition projects.
 
 # Download
-Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.2.0-alpha
+Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.3.2-alpha
 
-* [Intel Mac binary](https://github.com/astutic/Acharya/releases/download/v0.2.0-alpha/acharya.0.2.0-alpha.darwin.amd64.bin) | SHA256:  07ee2edde0fd1d4b9cb3591486a3f0188a4e0d1d4781545535a1e077e1581fb3
-* [M1 Mac binary](https://github.com/astutic/Acharya/releases/download/v0.2.0-alpha/acharya.0.2.0-alpha.darwin.arm64.bin) | SHA256: 7a97acaac0c619b130a0155e2813b217dd4dbcaf48b71c9238ca7299cf5a98d3
-* [Linux binary](https://github.com/astutic/Acharya/releases/download/v0.2.0-alpha/acharya.0.2.0-alpha.linux.amd64) | SHA256: b4884e8e00c0c8173913a3a378d1c03eea97fd65f9f174799ec066d90546e1b0
-* [Windows binary](https://github.com/astutic/Acharya/releases/download/v0.2.0-alpha/acharya.0.2.0-alpha.windows.amd64.exe) | SHA256: 3c2bf9ba2bed186ca7b652948f66c421444c7723edc90129295ff2fc264d3238
+* [Intel Mac binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.darwin.amd64.bin) | SHA256:  82d3043e65a85408aee6fcc065e016611f2c88405e9ce36f4fce20d8600b7425
+* [M1/M2 Mac binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.darwin.arm64.bin) | SHA256: 5f6d06c10500b7e153f4dcee11b4f539badbfa5429ef9f01b879bb337e25c6e8
+* [Linux binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.linux.amd64) | SHA256: 455fc22735d242b9ecba7f66e0e2ec4f769fb644fafd41ae0f4d453ed54a8a3e
+* [Windows binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.windows.amd64.exe) | SHA256: 30f453b75932c3bcf5c98d81d7e36477d3d5fd2d3f3f31a83fa6671cd387d5ee
 
 
 # Initial Run and Setup
@@ -19,13 +19,13 @@ It is recommended to create a separate folder to run acharya. Acharya will creat
 On *sh shells
 ```bash
 # copy the downloaded file to the newly created acharya folder and run the following command. Change the binary as per your platform
-chmod +x acharya.0.2.0-alpha.darwin.amd64.bin
-./acharya.0.2.0-alpha.darwin.amd64.bin
+chmod +x acharya.0.3.2-alpha.darwin.amd64.bin
+./acharya.0.3.2-alpha.darwin.amd64.bin
 ```
 
 On Powershell or COMMAND in Windows 
 ```powershell
-acharya.0.2.0-alpha.windows.amd64.exe
+acharya.0.3.2-alpha.windows.amd64.exe
 ```
 
 Windows firewall will show a prompt where it will ask whether it should allow acharya to listen to port 3000. Please allow it.
@@ -113,10 +113,11 @@ Acharya also supports multiple command line tasks like uploading data to a proje
 
 The command-line tasks can be listed via the following command which needs to be run in a terminal/powershell/command prompt
 ```powershell
-.\acharya.0.2.0-alpha.windows.amd64.exe tasks list
+.\acharya.0.3.2-alpha.windows.amd64.exe tasks list
 ```
 
 the output would be
+
 ```
 Available grifts
 ================
