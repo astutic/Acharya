@@ -3,12 +3,12 @@
 A Data Centric MLOps tool for your Named Entity Recognition projects.
 
 # Download
-Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.3.2-alpha
+Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.3.3-alpha
 
-* [Intel Mac binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.darwin.amd64.bin) | SHA256:  82d3043e65a85408aee6fcc065e016611f2c88405e9ce36f4fce20d8600b7425
-* [M1/M2 Mac binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.darwin.arm64.bin) | SHA256: 5f6d06c10500b7e153f4dcee11b4f539badbfa5429ef9f01b879bb337e25c6e8
-* [Linux binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.linux.amd64) | SHA256: 455fc22735d242b9ecba7f66e0e2ec4f769fb644fafd41ae0f4d453ed54a8a3e
-* [Windows binary](https://github.com/astutic/Acharya/releases/download/v0.3.2-alpha/acharya.0.3.2-alpha.windows.amd64.exe) | SHA256: 30f453b75932c3bcf5c98d81d7e36477d3d5fd2d3f3f31a83fa6671cd387d5ee
+* [Intel Mac binary](https://github.com/astutic/Acharya/releases/download/v0.3.3-alpha/acharya.0.3.3-alpha.darwin.amd64.bin) | SHA256:  f84224005183d8ebcac775f6560659d741849417b8d499c3988ef161e5d5f54a
+* [M1/M2 Mac binary](https://github.com/astutic/Acharya/releases/download/v0.3.3-alpha/acharya.0.3.3-alpha.darwin.arm64.bin) | SHA256: 5f908c7b8dbb33bfa7e67ddcc598dbdd5d28c187e40f80beb9748b32cea6cad3
+* [Linux binary](https://github.com/astutic/Acharya/releases/download/v0.3.3-alpha/acharya.0.3.3-alpha.linux.amd64) | SHA256: e1d379e82d4195e784a80f08e43a057f7550ce720a35f1b8b2b1e9ccbdf71a42
+* [Windows binary](https://github.com/astutic/Acharya/releases/download/v0.3.3-alpha/acharya.0.3.3-alpha.windows.amd64.exe) | SHA256: 0c2013272d07f890e39ddf48767e617c0ea2486ed36f7523c4c3befc069be3f5
 
 
 # Initial Run and Setup
@@ -19,13 +19,13 @@ It is recommended to create a separate folder to run acharya. Acharya will creat
 On *sh shells
 ```bash
 # copy the downloaded file to the newly created acharya folder and run the following command. Change the binary as per your platform
-chmod +x acharya.0.3.2-alpha.darwin.amd64.bin
-./acharya.0.3.2-alpha.darwin.amd64.bin
+chmod +x acharya.0.3.3-alpha.darwin.amd64.bin
+./acharya.0.3.3-alpha.darwin.amd64.bin
 ```
 
 On Powershell or COMMAND in Windows 
 ```powershell
-acharya.0.3.2-alpha.windows.amd64.exe
+acharya.0.3.3-alpha.windows.amd64.exe
 ```
 
 Windows firewall will show a prompt where it will ask whether it should allow acharya to listen to port 3000. Please allow it.
@@ -113,7 +113,7 @@ Acharya also supports multiple command line tasks like uploading data to a proje
 
 The command-line tasks can be listed via the following command which needs to be run in a terminal/powershell/command prompt
 ```powershell
-.\acharya.0.3.2-alpha.windows.amd64.exe tasks list
+.\acharya.0.3.3-alpha.windows.amd64.exe tasks list
 ```
 
 the output would be
@@ -121,18 +121,18 @@ the output would be
 ```
 Available grifts
 ================
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe compare        # Compare Results of 2 Train
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe convert        # To convert input data to another format.
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe copyFile       # copyFile [src] [dst project:algo:dstDirpath] Copies file to running algorithm container/VM
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe entities       # To list, add and modify entities in a NER Project.
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe export         # Export data in a Project in required data formats.
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe import         # To import external data into a project.
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe login          #
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe logout         #
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe project        # To add and delete projects
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe requireAuth    #
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe train          # Train Algorithm
-C:\acharya\acharya.0.3.2-alpha.windows.amd64.exe users          # User related operations
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe compare        # Compare Results of 2 Train
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe convert        # To convert input data to another format.
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe copyFile       # copyFile [src] [dst project:algo:dstDirpath] Copies file to running algorithm container/VM
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe entities       # To list, add and modify entities in a NER Project.
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe export         # Export data in a Project in required data formats.
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe import         # To import external data into a project.
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe login          #
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe logout         #
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe project        # To add and delete projects
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe requireAuth    #
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe train          # Train Algorithm
+C:\acharya\acharya.0.3.3-alpha.windows.amd64.exe users          # User related operations
 ```
 
 certain tasks would require login and the task would prompt for the same.
