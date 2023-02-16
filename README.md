@@ -1,6 +1,6 @@
 ![Acharya logo](/docs/images/logo/acharyaLogox100.png "Acharya Logo")
 # Acharya
-A Data Centric MLOps tool for your Named Entity Recognition projects.
+A Data Centric MLOps tool to increase the accuracy of your Named Entity Recognition projects.
 
 # Download
 Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.3.3-alpha
