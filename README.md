@@ -1,6 +1,6 @@
 ![Acharya logo](/docs/images/logo/acharyaLogox100.png "Acharya Logo")
 # Acharya
-A Data Centric MLOps and annotation tool to increase the accuracy of your Named Entity Recognition projects which helps
+A data-centric annotation tool to increase the accuracy of your Named Entity Recognition projects which helps
 
 - Rapidly identify and fix labelling errors in your dataset. 
 - Import/export datasets in multiple formats, train a model and use it to aid in annotation process. 
