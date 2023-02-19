@@ -1,6 +1,10 @@
 ![Acharya logo](/docs/images/logo/acharyaLogox100.png "Acharya Logo")
 # Acharya
-A Data Centric MLOps tool to increase the accuracy of your Named Entity Recognition projects.
+A Data Centric MLOps and annotation tool to increase the accuracy of your Named Entity Recognition projects which helps
+
+- Rapidly identify and fix labelling errors in your dataset. 
+- Import/export datasets in multiple formats, train a model and use it to aid in annotation process. 
+- Setup an MLOps pipeline to experiment with different algorithms on the same data and increase their accuracy and performance in a data-centric way.
 
 # Download
 Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.3.3-alpha
