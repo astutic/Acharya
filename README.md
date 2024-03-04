@@ -7,6 +7,8 @@ A data-centric annotation tool to increase the accuracy of your Named Entity Rec
 - Setup an MLOps pipeline to experiment with different algorithms on the same data and increase their accuracy and performance in a data-centric way.
 
 # Download
+![Downloads](https://img.shields.io/github/downloads/astutic/acharya/total)
+
 Download the community edition acharya binary latest release for your system. Our current release is at https://github.com/astutic/Acharya/releases/tag/v0.3.4-alpha
 
 * [Intel Mac binary](https://github.com/astutic/Acharya/releases/download/v0.3.4-alpha/acharya.0.3.4-alpha.darwin.amd64.bin) | SHA256:  0109da5b30c98417856386b08384b3cce1501a6cdc9a3e8f1bc3849ad1faf2f4
